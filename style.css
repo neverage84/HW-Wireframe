@@ -29,7 +29,7 @@ nav {
 
 section {
     color: #777;
-    width: 70%;
+    width: 495px;
     
     background-color: #ebebeb;
     padding: 100px;
@@ -60,7 +60,7 @@ p { color: #777;
 aside { background-color: #ebebeb;
         color: #777;
         float: right;
-        width: 30%;
+        width: 430px;
         padding: 100px;
         margin-bottom: 20px;
 
