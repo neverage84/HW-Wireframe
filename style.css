@@ -21,3 +21,11 @@ nav {
     margin-bottom: 10px;
     
 }
+
+section {
+    width: 70%;
+    overflow: auto;
+    background-color: #ebebeb;
+    padding: 100px;
+    margin-bottom: 20px;
+}
