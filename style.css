@@ -1,10 +1,10 @@
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
     text-align: center;
 }
 
 body {background-color: #777;
-        width: 960px;
+        width: 100%;
         font-size: 18px;
         font-family: Arial, Helvetica, sans-serif;
 
@@ -13,7 +13,8 @@ header { background-color: #ebebeb;
         padding: 20px;
         color: #777;
         margin-bottom: 10px;
-        width: 100%;
+        margin-left: 32px;
+        margin-right: 32px;
         
 
 }
@@ -23,6 +24,8 @@ nav {
     color: #777;
     padding: 20px;
     margin-bottom: 10px;
+    margin-left: 32px;
+    margin-right: 32px;
     
     
 }
@@ -33,10 +36,10 @@ section {
     
     background-color: #ebebeb;
     padding: 100px;
-    margin-bottom: 20px;
     float: left;
     clear: right;
-    
+    margin-left: 32px;
+    height: 300px;
 }
 
 article {
@@ -59,10 +62,13 @@ p { color: #777;
 
 aside { background-color: #ebebeb;
         color: #777;
-        float: right;
-        width: 430px;
-        padding: 100px;
-        margin-bottom: 20px;
+        float: left;
+        margin-left: 10px;
+        width: 670px;
+        height: 500px;
+        display: block;
+        
+       
 
            
 
@@ -72,8 +78,12 @@ div {margin-bottom: 10px;
 }
 footer {background-color: #ebebeb; 
         color: #777;
-        margin-top: 10px;
+        margin-right: 32px;
+        margin-left: 32px;
         padding: 20px;
-        
+        position: fixed;
+        bottom: 10px;
+        width: 95%;
+       
 
 }
